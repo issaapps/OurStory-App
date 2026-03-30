@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EssaHazama" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_mid</item>
+        <item name="colorPrimaryVariant">@color/purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/pink_mid</item>
+        <item name="colorSecondaryVariant">@color/pink_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/purple_dark</item>
+        <item name="android:statusBarColor">@color/purple_dark</item>
+        <item name="android:navigationBarColor">@color/nav_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.EssaHazama.Splash" parent="Theme.EssaHazama">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@color/purple_dark</item>
+    </style>
+
+    <style name="CardStyle">
+        <item name="android:background">@drawable/card_white</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="HeartBeatAnim">
+        <item name="android:textSize">28sp</item>
+    </style>
+</resources>

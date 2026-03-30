@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "essa_hazama": {
+      "messages": {
+        ".read": true,
+        ".write": true
+      }
+    }
+  }
+}

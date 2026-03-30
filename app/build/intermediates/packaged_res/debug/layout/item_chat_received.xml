@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:gravity="start"
+    android:paddingTop="4dp" android:paddingBottom="4dp">
+
+    <!-- Sender avatar -->
+    <TextView android:id="@+id/tvSenderAvatar"
+        android:layout_width="34dp" android:layout_height="34dp"
+        android:text="هـ" android:textColor="#FCE7F3" android:textSize="13sp"
+        android:textStyle="bold" android:gravity="center"
+        android:background="@drawable/avatar_hazama"
+        android:layout_marginEnd="8dp" android:layout_marginTop="2dp"/>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_marginEnd="60dp">
+        <TextView android:id="@+id/tvReceivedMsg"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/bubble_received"
+            android:textColor="#1E0A2E" android:textSize="14sp"
+            android:paddingStart="14dp" android:paddingEnd="14dp"
+            android:paddingTop="10dp" android:paddingBottom="10dp"
+            android:maxWidth="240dp"/>
+        <TextView android:id="@+id/tvReceivedTime"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textColor="#A78BFA" android:textSize="10sp"
+            android:layout_marginTop="3dp" android:layout_marginStart="4dp"/>
+    </LinearLayout>
+
+</LinearLayout>

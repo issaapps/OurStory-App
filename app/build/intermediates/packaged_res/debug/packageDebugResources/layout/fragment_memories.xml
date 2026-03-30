@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Top Bar -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:paddingStart="24dp" android:paddingEnd="24dp"
+        android:paddingTop="24dp" android:paddingBottom="6dp" android:gravity="center_vertical">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/our_memories" android:textColor="#FFFFFF"
+                android:textSize="22sp" android:textStyle="bold"/>
+            <!-- FIX: added tvMemCount -->
+            <TextView android:id="@+id/tvMemCount"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="10 ذكرى جميلة 💜" android:textColor="#A78BFA"
+                android:textSize="12sp" android:layout_marginTop="2dp"/>
+        </LinearLayout>
+        <Button android:id="@+id/btnAddMemory"
+            android:layout_width="42dp" android:layout_height="42dp"
+            android:text="+" android:textColor="#D8B4FE" android:textSize="22sp"
+            android:background="@drawable/chip_idle" android:stateListAnimator="@null"
+            android:padding="0dp"/>
+    </LinearLayout>
+
+    <!-- FIX: Search bar added -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingStart="20dp" android:paddingEnd="20dp" android:paddingBottom="6dp">
+        <EditText android:id="@+id/etSearchMemory"
+            android:layout_width="match_parent" android:layout_height="42dp"
+            android:hint="🔍  ابحث في ذكرياتك…"
+            android:textSize="13sp" android:background="@drawable/input_bg"
+            android:paddingStart="16dp" android:paddingEnd="16dp"
+            android:inputType="text" android:imeOptions="actionSearch"/>
+    </LinearLayout>
+
+    <!-- Filter Chips -->
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:scrollbars="none" android:paddingStart="20dp" android:paddingEnd="20dp"
+        android:paddingBottom="10dp">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <Button android:id="@+id/chipAll" android:layout_width="wrap_content"
+                android:layout_height="34dp" android:text="@string/filter_all"
+                android:textColor="#FFFFFF" android:textSize="11sp" android:textStyle="bold"
+                android:background="@drawable/chip_active" android:stateListAnimator="@null"
+                android:layout_marginEnd="8dp" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            <Button android:id="@+id/chipDates" android:layout_width="wrap_content"
+                android:layout_height="34dp" android:text="@string/filter_dates"
+                android:textColor="#D8B4FE" android:textSize="11sp" android:textStyle="bold"
+                android:background="@drawable/chip_idle" android:stateListAnimator="@null"
+                android:layout_marginEnd="8dp" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            <Button android:id="@+id/chipBirthdays" android:layout_width="wrap_content"
+                android:layout_height="34dp" android:text="@string/filter_birthdays"
+                android:textColor="#D8B4FE" android:textSize="11sp" android:textStyle="bold"
+                android:background="@drawable/chip_idle" android:stateListAnimator="@null"
+                android:layout_marginEnd="8dp" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            <Button android:id="@+id/chipTravel" android:layout_width="wrap_content"
+                android:layout_height="34dp" android:text="@string/filter_travel"
+                android:textColor="#D8B4FE" android:textSize="11sp" android:textStyle="bold"
+                android:background="@drawable/chip_idle" android:stateListAnimator="@null"
+                android:layout_marginEnd="8dp" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            <!-- FIX: added chipSpecial -->
+            <Button android:id="@+id/chipSpecial" android:layout_width="wrap_content"
+                android:layout_height="34dp" android:text="@string/filter_special"
+                android:textColor="#D8B4FE" android:textSize="11sp" android:textStyle="bold"
+                android:background="@drawable/chip_idle" android:stateListAnimator="@null"
+                android:paddingStart="16dp" android:paddingEnd="16dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Grid -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMemories"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="16dp" android:paddingEnd="16dp" android:paddingBottom="16dp"
+        android:clipToPadding="false"/>
+
+</LinearLayout>

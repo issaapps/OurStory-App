@@ -1,0 +1,9 @@
+com.love.essahazama.app-pngs-0 D:\Projects\EssaHazamaApp\app\build\generated\res\pngs\debug
+com.love.essahazama.app-res-1 D:\Projects\EssaHazamaApp\app\build\generated\res\processDebugGoogleServices
+com.love.essahazama.app-resValues-2 D:\Projects\EssaHazamaApp\app\build\generated\res\resValues\debug
+com.love.essahazama.app-updated_navigation_xml-3 D:\Projects\EssaHazamaApp\app\build\generated\updated_navigation_xml\debug
+com.love.essahazama.app-packageDebugResources-4 D:\Projects\EssaHazamaApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.love.essahazama.app-packageDebugResources-5 D:\Projects\EssaHazamaApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.love.essahazama.app-debug-6 D:\Projects\EssaHazamaApp\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.love.essahazama.app-debug-7 D:\Projects\EssaHazamaApp\app\src\debug\res
+com.love.essahazama.app-main-8 D:\Projects\EssaHazamaApp\app\src\main\res

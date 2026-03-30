@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/card_white"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvMilestoneEmoji"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="⭐"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:background="@drawable/badge_blue" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/tvMilestoneTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="عنوان الإنجاز"
+            android:textColor="#1E0A2E"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMilestoneDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 يناير 2024"
+            android:textColor="#6B21A8"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnDeleteMilestone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🗑️"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:visibility="gone" />
+
+</LinearLayout>

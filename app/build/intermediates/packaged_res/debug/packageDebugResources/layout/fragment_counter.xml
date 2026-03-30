@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:scrollbars="none">
+
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="vertical" android:paddingTop="24dp" android:paddingBottom="24dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginStart="24dp" android:layout_marginBottom="20dp"
+        android:text="@string/love_counter" android:textColor="#FFFFFF"
+        android:textSize="24sp" android:textStyle="bold"/>
+
+    <!-- ══ بطاقة العداد الرئيسية ══════════════════════════ -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+        android:layout_marginBottom="14dp" android:background="@drawable/counter_card"
+        android:orientation="vertical" android:gravity="center" android:padding="28dp">
+
+      <!-- Avatars -->
+      <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:orientation="horizontal" android:gravity="center_vertical"
+          android:layout_marginBottom="18dp">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center">
+          <TextView android:layout_width="56dp" android:layout_height="56dp"
+              android:text="ع" android:textColor="#E9D5FF" android:textSize="24sp"
+              android:textStyle="bold" android:gravity="center" android:background="@drawable/avatar_essa"/>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/essa" android:textColor="#D8B4FE"
+              android:textSize="11sp" android:textStyle="bold" android:layout_marginTop="5dp"/>
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="  💜💕💜  " android:textSize="20sp"
+            android:layout_marginStart="14dp" android:layout_marginEnd="14dp"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center">
+          <TextView android:layout_width="56dp" android:layout_height="56dp"
+              android:text="هـ" android:textColor="#FCE7F3" android:textSize="24sp"
+              android:textStyle="bold" android:gravity="center" android:background="@drawable/avatar_hazama"/>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/hazama" android:textColor="#F9A8D4"
+              android:textSize="11sp" android:textStyle="bold" android:layout_marginTop="5dp"/>
+        </LinearLayout>
+      </LinearLayout>
+
+      <!-- Big number -->
+      <TextView android:id="@+id/tvBigDays" android:layout_width="wrap_content"
+          android:layout_height="wrap_content" android:text="0"
+          android:textColor="#D8B4FE" android:textSize="84sp" android:textStyle="bold"
+          android:lineSpacingExtra="-12dp"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:text="@string/days_of_love" android:textColor="#F9A8D4"
+          android:textSize="15sp" android:layout_marginTop="2dp"/>
+
+      <!-- H : M : S live -->
+      <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:orientation="horizontal" android:layout_marginTop="16dp" android:gravity="center">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center"
+            android:background="@drawable/chip_idle"
+            android:paddingStart="14dp" android:paddingEnd="14dp"
+            android:paddingTop="8dp" android:paddingBottom="8dp">
+          <TextView android:id="@+id/tvHours" android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:text="00"
+              android:textColor="#E9D5FF" android:textSize="20sp" android:textStyle="bold"/>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/hours_label" android:textColor="#A78BFA" android:textSize="9sp"/>
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text=" : " android:textColor="#C4B5FD" android:textSize="24sp" android:textStyle="bold"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center"
+            android:background="@drawable/chip_idle"
+            android:paddingStart="14dp" android:paddingEnd="14dp"
+            android:paddingTop="8dp" android:paddingBottom="8dp">
+          <TextView android:id="@+id/tvMinutes" android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:text="00"
+              android:textColor="#E9D5FF" android:textSize="20sp" android:textStyle="bold"/>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/minutes_label" android:textColor="#A78BFA" android:textSize="9sp"/>
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text=" : " android:textColor="#C4B5FD" android:textSize="24sp" android:textStyle="bold"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center"
+            android:background="@drawable/chip_idle"
+            android:paddingStart="14dp" android:paddingEnd="14dp"
+            android:paddingTop="8dp" android:paddingBottom="8dp">
+          <TextView android:id="@+id/tvSeconds" android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:text="00"
+              android:textColor="#F9A8D4" android:textSize="20sp" android:textStyle="bold"/>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/seconds_label" android:textColor="#A78BFA" android:textSize="9sp"/>
+        </LinearLayout>
+      </LinearLayout>
+
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:text="@string/together_since" android:textColor="#9F7AEA"
+          android:textSize="11sp" android:layout_marginTop="14dp"/>
+
+    </LinearLayout>
+
+    <!-- ══ Y / M / D ══════════════════════════════════════ -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+        android:layout_marginBottom="14dp" android:orientation="horizontal">
+      <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+          android:layout_weight="1" android:layout_marginEnd="6dp"
+          android:background="@drawable/card_white" android:orientation="vertical"
+          android:gravity="center" android:padding="16dp">
+        <TextView android:id="@+id/tvYears" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="0"
+            android:textColor="@color/purple_mid" android:textSize="34sp" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/year_label" android:textColor="@color/text_secondary"
+            android:textSize="12sp" android:layout_marginTop="4dp"/>
+      </LinearLayout>
+      <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+          android:layout_weight="1" android:layout_marginStart="3dp" android:layout_marginEnd="3dp"
+          android:background="@drawable/card_white" android:orientation="vertical"
+          android:gravity="center" android:padding="16dp">
+        <TextView android:id="@+id/tvMonths" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="0"
+            android:textColor="@color/purple_mid" android:textSize="34sp" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/months_label" android:textColor="@color/text_secondary"
+            android:textSize="12sp" android:layout_marginTop="4dp"/>
+      </LinearLayout>
+      <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+          android:layout_weight="1" android:layout_marginStart="6dp"
+          android:background="@drawable/card_white" android:orientation="vertical"
+          android:gravity="center" android:padding="16dp">
+        <TextView android:id="@+id/tvRemDays" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="0"
+            android:textColor="@color/purple_mid" android:textSize="34sp" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/days_label" android:textColor="@color/text_secondary"
+            android:textSize="12sp" android:layout_marginTop="4dp"/>
+      </LinearLayout>
+    </LinearLayout>
+
+    <!-- ══ إحصائيات إضافية (جديد) ════════════════════════ -->
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginStart="24dp" android:layout_marginBottom="12dp"
+        android:text="📊 إحصائيات الحب" android:textColor="#D8B4FE"
+        android:textSize="16sp" android:textStyle="bold"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+        android:layout_marginBottom="14dp" android:orientation="horizontal">
+      <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+          android:layout_weight="1" android:layout_marginEnd="6dp"
+          android:background="@drawable/stat_card" android:orientation="vertical"
+          android:gravity="center" android:padding="14dp">
+        <TextView android:id="@+id/tvTotalHours"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="0" android:textColor="#F9A8D4"
+            android:textSize="22sp" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/total_hours_label" android:textColor="#C4B5FD"
+            android:textSize="10sp" android:layout_marginTop="4dp" android:gravity="center"/>
+      </LinearLayout>
+      <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+          android:layout_weight="1" android:layout_marginStart="6dp"
+          android:background="@drawable/stat_card" android:orientation="vertical"
+          android:gravity="center" android:padding="14dp">
+        <TextView android:id="@+id/tvTotalMins"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="0" android:textColor="#A78BFA"
+            android:textSize="22sp" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/total_minutes_label" android:textColor="#C4B5FD"
+            android:textSize="10sp" android:layout_marginTop="4dp" android:gravity="center"/>
+      </LinearLayout>
+    </LinearLayout>
+
+    <!-- Progress bar لنسبة الحب (جديد) -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+        android:layout_marginBottom="14dp" android:background="@drawable/card_white"
+        android:orientation="vertical" android:padding="18dp">
+      <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:orientation="horizontal" android:gravity="center_vertical"
+          android:layout_marginBottom="10dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="@string/love_percentage"
+            android:textColor="@color/text_primary" android:textSize="13sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/tvLovePct"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="100%" android:textColor="@color/purple_mid"
+            android:textSize="14sp" android:textStyle="bold"/>
+      </LinearLayout>
+      <ProgressBar android:id="@+id/progressLove"
+          style="?android:attr/progressBarStyleHorizontal"
+          android:layout_width="match_parent" android:layout_height="12dp"
+          android:progress="100" android:max="100"
+          android:progressDrawable="@drawable/progress_love"/>
+    </LinearLayout>
+
+    <!-- ══ لحظات لا تُنسى (أحداث خاصة) ════════════════ -->
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginStart="24dp" android:layout_marginBottom="12dp"
+        android:text="@string/milestones" android:textColor="#D8B4FE"
+        android:textSize="16sp" android:textStyle="bold"/>
+
+    <!-- أول محادثة -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp" android:background="@drawable/card_white"
+        android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp">
+      <TextView android:layout_width="48dp" android:layout_height="48dp"
+          android:text="💬" android:textSize="26sp" android:gravity="center"
+          android:background="@drawable/badge_blue"/>
+      <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+          android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/first_talk" android:textColor="@color/text_primary"
+            android:textSize="14sp" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/first_talk_date_str" android:textColor="@color/text_secondary"
+            android:textSize="12sp" android:layout_marginTop="3dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="بداية كل شيء الجميل 🌱" android:textColor="@color/text_soft"
+            android:textSize="11sp" android:layout_marginTop="2dp" android:textStyle="italic"/>
+      </LinearLayout>
+    </LinearLayout>
+
+    <!-- الاعتراف — highlighted -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp" android:background="@drawable/counter_card"
+        android:orientation="vertical" android:padding="16dp">
+      <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:layout_width="48dp" android:layout_height="48dp"
+            android:text="❤️" android:textSize="26sp" android:gravity="center"
+            android:background="@drawable/badge_pink"/>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="16dp">
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/first_confession" android:textColor="#FFFFFF"
+              android:textSize="15sp" android:textStyle="bold"/>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/confession_date_str" android:textColor="#F9A8D4"
+              android:textSize="12sp" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="💜" android:textSize="26sp"/>
+      </LinearLayout>
+      <TextView android:id="@+id/tvConfessionDays"
+          android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:layout_marginTop="10dp" android:text="0 يوم منذ الاعتراف 💜"
+          android:textColor="#E9D5FF" android:textSize="13sp" android:textStyle="bold"
+          android:layout_gravity="center"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:layout_marginTop="6dp" android:text="@string/days_between_label"
+          android:textColor="#C4B5FD" android:textSize="11sp" android:textStyle="italic"
+          android:layout_gravity="center"/>
+    </LinearLayout>
+
+  </LinearLayout>
+</ScrollView>

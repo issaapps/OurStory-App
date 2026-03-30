@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_radius">24dp</dimen>
+    <dimen name="card_radius_lg">28dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="btn_radius">50dp</dimen>
+    <dimen name="avatar_size">60dp</dimen>
+    <dimen name="nav_height">76dp</dimen>
+    <dimen name="quick_card_height">110dp</dimen>
+</resources>

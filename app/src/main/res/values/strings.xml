@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Essa &amp; Hazama 💜</string>
+    <string name="our_love_app">our romantic world ✨</string>
+    <string name="essa">Essa</string>
+    <string name="hazama">حزامه</string>
+
+    <!-- dates -->
+    <string name="together_since">بداية المعرفة: ٢٥ أكتوبر ٢٠٢٥</string>
+    <string name="confession_date_label">الاعتراف بالحب: ١١ ديسمبر ٢٠٢٥ ❤️</string>
+    <string name="days_of_love">يوم منذ أول حديث 💕</string>
+    <string name="days_since_confession">يوم منذ الاعتراف 💜</string>
+    <string name="enter_our_world">✨ ادخل عالمنا</string>
+    <string name="first_talk">أول حديث بيننا 💬</string>
+    <string name="first_talk_date_str">٢٥ أكتوبر ٢٠٢٥</string>
+    <string name="first_confession">الاعتراف بالحب ❤️</string>
+    <string name="confession_date_str">١١ ديسمبر ٢٠٢٥</string>
+    <string name="days_between_label">٤٧ يوماً من المعرفة حتى الاعتراف 💜</string>
+
+    <!-- nav -->
+    <string name="welcome_back">أهلاً بك مجدداً 🌸</string>
+    <string name="home">الرئيسية</string>
+    <string name="counter">العداد</string>
+    <string name="messages">رسائلنا</string>
+    <string name="memories">ذكرياتنا</string>
+    <string name="chat">دردشة</string>
+    <string name="love_counter">عداد الحب 💜</string>
+    <string name="daily_message">رسالة اليوم 💌</string>
+    <string name="our_memories">ذكرياتنا 📸</string>
+    <string name="our_chat">دردشتنا 💬</string>
+
+    <!-- counter extras -->
+    <string name="year_label">سنة</string>
+    <string name="months_label">شهر</string>
+    <string name="days_label">يوم</string>
+    <string name="hours_label">ساعة</string>
+    <string name="minutes_label">دقيقة</string>
+    <string name="seconds_label">ثانية</string>
+    <string name="milestones">لحظات لا تُنسى ⭐</string>
+    <string name="total_hours_label">إجمالي الساعات</string>
+    <string name="total_minutes_label">إجمالي الدقائق</string>
+    <string name="love_percentage">نسبة الحب</string>
+
+    <!-- memories -->
+    <string name="memory_added">✨ تمت إضافة الذكرى!</string>
+    <string name="add_memory_title">💜 أضف ذكرى جديدة</string>
+    <string name="memory_title_hint">عنوان الذكرى</string>
+    <string name="memory_date_hint">التاريخ (مثال: ٢٥ أكتوبر ٢٠٢٥)</string>
+    <string name="memory_tag_hint">التصنيف (موعد / عيد / سفر / خاص)</string>
+    <string name="memory_desc_hint">وصف اختياري للذكرى…</string>
+    <string name="add_btn">إضافة ✨</string>
+    <string name="cancel_btn">إلغاء</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_dates">مواعيد</string>
+    <string name="filter_birthdays">أعياد</string>
+    <string name="filter_travel">سفر</string>
+    <string name="filter_special">خاص</string>
+
+    <!-- messages -->
+    <string name="today_quote">✨ غزل اليوم</string>
+    <string name="quote_author">— Essa لحزامه 💜</string>
+    <string name="tap_to_read">اضغط للقراءة</string>
+    <string name="love_reaction">💜 حزامه استلمت حبك!</string>
+    <string name="msg_sent">💜 تم الإرسال بكل الحب!</string>
+    <string name="msg_empty">اكتب رسالتك أولاً 💌</string>
+    <string name="prev_messages">رسائل سابقة 📜</string>
+    <string name="write_new_msg">اكتب رسالة جديدة 💌</string>
+    <string name="write_message_hint">اكتب رسالة حب لحزامه…</string>
+    <string name="send">إرسال بحب</string>
+
+    <!-- chat -->
+    <string name="chat_hint">اكتب رسالة…</string>
+    <string name="chat_connecting">جارٍ الاتصال…</string>
+    <string name="chat_connected">متصل ✓</string>
+    <string name="chat_offline">غير متصل</string>
+    <string name="login_as_essa">أنا Essa 💜</string>
+    <string name="login_as_hazama">أنا حزامه 🌸</string>
+    <string name="select_user">من أنت؟</string>
+    <string name="msg_deleted">تم حذف الرسالة</string>
+</resources>

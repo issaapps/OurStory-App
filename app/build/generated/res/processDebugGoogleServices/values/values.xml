@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">366585143952</string>
+    <string name="google_api_key" translatable="false">AIzaSyBKoVe30FNJBGDQUwFbXv-n-9fo16tZTvU</string>
+    <string name="google_app_id" translatable="false">1:366585143952:android:0c3efc36a3dcb7e378ae15</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBKoVe30FNJBGDQUwFbXv-n-9fo16tZTvU</string>
+    <string name="google_storage_bucket" translatable="false">essahazamaapp.firebasestorage.app</string>
+    <string name="project_id" translatable="false">essahazamaapp</string>
+</resources>

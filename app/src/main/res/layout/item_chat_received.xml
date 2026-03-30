@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:gravity="start"
+    android:paddingTop="3dp" android:paddingBottom="3dp">
+
+    <TextView android:id="@+id/tvSenderAvatar"
+        android:layout_width="34dp" android:layout_height="34dp"
+        android:text="هـ" android:textColor="#FCE7F3" android:textSize="13sp"
+        android:textStyle="bold" android:gravity="center"
+        android:background="@drawable/avatar_hazama"
+        android:layout_marginEnd="8dp" android:layout_marginTop="2dp"/>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_marginEnd="60dp">
+
+        <!-- نص -->
+        <TextView android:id="@+id/tvReceivedMsg"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/bubble_received"
+            android:textColor="#1E0A2E" android:textSize="14sp"
+            android:paddingStart="14dp" android:paddingEnd="14dp"
+            android:paddingTop="10dp" android:paddingBottom="10dp"
+            android:maxWidth="240dp" android:visibility="gone"/>
+
+        <!-- صورة -->
+        <ImageView android:id="@+id/ivReceivedImage"
+            android:layout_width="200dp" android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bubble_received"
+            android:visibility="gone"/>
+
+        <!-- ستيكر -->
+        <TextView android:id="@+id/tvReceivedSticker"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="56sp" android:visibility="gone"/>
+
+        <!-- صوت -->
+        <LinearLayout android:id="@+id/layoutReceivedAudio"
+            android:layout_width="200dp" android:layout_height="50dp"
+            android:background="@drawable/bubble_received"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:paddingStart="12dp" android:paddingEnd="12dp"
+            android:visibility="gone">
+            <TextView android:id="@+id/btnPlayReceived"
+                android:layout_width="36dp" android:layout_height="36dp"
+                android:text="▶" android:textColor="#7C3AED" android:textSize="16sp"
+                android:gravity="center" android:background="@drawable/chip_idle"
+                android:clickable="true" android:focusable="true"/>
+            <View android:layout_width="0dp" android:layout_height="3dp"
+                android:layout_weight="1" android:background="#887C3AED"
+                android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+            <TextView android:id="@+id/tvReceivedAudioDur"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="0:00" android:textColor="#7C3AED" android:textSize="11sp"/>
+        </LinearLayout>
+
+        <!-- وقت -->
+        <TextView android:id="@+id/tvReceivedTime"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textColor="#A78BFA" android:textSize="10sp"
+            android:layout_marginTop="3dp" android:layout_marginStart="4dp"/>
+    </LinearLayout>
+</LinearLayout>

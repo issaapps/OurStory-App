@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_dark">#0F0520</color>
+    <color name="purple_deep">#1E0A3C</color>
+    <color name="purple_mid">#7C3AED</color>
+    <color name="purple_soft">#A855F7</color>
+    <color name="purple_light">#D8B4FE</color>
+    <color name="purple_pale">#F3E8FF</color>
+    <color name="purple_card">#2A1050</color>
+
+    <color name="pink_dark">#9D174D</color>
+    <color name="pink_mid">#EC4899</color>
+    <color name="pink_soft">#F9A8D4</color>
+    <color name="pink_pale">#FCE7F3</color>
+    <color name="pink_rose">#BE185D</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#1E0A2E</color>
+    <color name="text_secondary">#6B21A8</color>
+    <color name="text_soft">#A78BFA</color>
+    <color name="text_muted">#C4B5FD</color>
+    <color name="card_white">#F8F3FF</color>
+    <color name="nav_bg">#0F0520</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="success">#10B981</color>
+    <color name="warning">#F59E0B</color>
+</resources>

@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_chat_input_bg.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\chat_input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_bubble_sent.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\bubble_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_ic_heart.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\ic_heart.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_divider_hearts.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\divider_hearts.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_fragment_memories.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\fragment_memories.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_badge_blue.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\badge_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_btn_send_circle.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\btn_send_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_activity_memory_detail.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\activity_memory_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_btn_ghost.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\btn_ghost.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_bubble_received.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\bubble_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_item_message.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\item_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_fragment_messages.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\fragment_messages.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_dot_green.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\dot_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_ring_inner.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\ring_inner.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_dot_pink.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\dot_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_chip_idle.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\chip_idle.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_item_milestone.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\item_milestone.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_card_glass.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\card_glass.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_nav_dot.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\nav_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_nav_bg.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\nav_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_fragment_chat.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_ring_mid.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\ring_mid.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_card_white.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\card_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_activity_lock.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\activity_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_chip_active.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\chip_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_btn_primary.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\btn_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_input_bg.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_item_chat_received.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\item_chat_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_bg_main.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\bg_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\anim_slide_up.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_badge_gradient.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\badge_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_fragment_bluetooth_chat.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\fragment_bluetooth_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_avatar_hazama.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\avatar_hazama.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_dot_pin_empty.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\dot_pin_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_btn_pin.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\btn_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_chat_topbar.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\chat_topbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_item_chat_sent.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\item_chat_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_memory_img_bg.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\memory_img_bg.xml"
+    },
+    {
+        "merged": "com.love.essahazama.app-debug-47:/layout_dialog_identity_picker.xml.flat",
+        "source": "com.love.essahazama.app-main-49:/layout/dialog_identity_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_fragment_counter.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\fragment_counter.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_progress_love.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\progress_love.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_badge_purple.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\badge_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_memory_card_big.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\memory_card_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_login_card.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\login_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_dot_purple.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\dot_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_ic_heart_round.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\ic_heart_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_quote_card.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\quote_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_counter_card.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\counter_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_stat_card.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\stat_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_item_memory.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\item_memory.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_avatar_essa.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\avatar_essa.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\layout_dialog_identity_picker.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\layout\\dialog_identity_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_badge_pink.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\badge_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\drawable_ring_outer.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\drawable\\ring_outer.xml"
+    },
+    {
+        "merged": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-debug-47:\\anim_heartbeat.xml.flat",
+        "source": "C:\\Users\\acc\\.gradle\\daemon\\9.3.1\\com.love.essahazama.app-main-49:\\anim\\heartbeat.xml"
+    }
+]

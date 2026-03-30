@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main">
+
+    <!-- Top Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_topbar"
+        android:orientation="horizontal"
+        android:paddingStart="20dp" android:paddingEnd="20dp"
+        android:paddingTop="18dp" android:paddingBottom="14dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <TextView android:layout_width="44dp" android:layout_height="44dp"
+                android:text="ع" android:textColor="#E9D5FF" android:textSize="18sp"
+                android:textStyle="bold" android:gravity="center"
+                android:background="@drawable/avatar_essa"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="  💜  " android:textSize="16sp"/>
+            <TextView android:layout_width="44dp" android:layout_height="44dp"
+                android:text="هـ" android:textColor="#FCE7F3" android:textSize="18sp"
+                android:textStyle="bold" android:gravity="center"
+                android:background="@drawable/avatar_hazama"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical"
+            android:layout_marginStart="14dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/our_chat" android:textColor="#FFFFFF"
+                android:textSize="17sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/tvChatStatus"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/chat_connecting" android:textColor="#A78BFA"
+                android:textSize="11sp" android:layout_marginTop="2dp"/>
+        </LinearLayout>
+
+        <!-- Online dot -->
+        <View android:id="@+id/onlineDot"
+            android:layout_width="10dp" android:layout_height="10dp"
+            android:background="@drawable/dot_green" android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <!-- ════ Login Screen (shown when user not selected) ════ -->
+    <LinearLayout android:id="@+id/layoutLogin"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:orientation="vertical"
+        android:gravity="center" android:padding="28dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="💜" android:textSize="56sp" android:gravity="center"
+            android:layout_gravity="center" android:layout_marginBottom="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/select_user" android:textColor="#D8B4FE"
+            android:textSize="18sp" android:textStyle="bold"
+            android:gravity="center" android:layout_gravity="center"
+            android:layout_marginBottom="32dp"/>
+
+        <Button android:id="@+id/btnLoginEssa"
+            android:layout_width="match_parent" android:layout_height="58dp"
+            android:text="@string/login_as_essa"
+            android:textColor="#FFFFFF" android:textSize="16sp" android:textStyle="bold"
+            android:background="@drawable/btn_primary" android:stateListAnimator="@null"
+            android:layout_marginBottom="14dp"/>
+
+        <Button android:id="@+id/btnLoginHazama"
+            android:layout_width="match_parent" android:layout_height="58dp"
+            android:text="@string/login_as_hazama"
+            android:textColor="#D8B4FE" android:textSize="16sp" android:textStyle="bold"
+            android:background="@drawable/btn_ghost" android:stateListAnimator="@null"/>
+
+    </LinearLayout>
+
+    <!-- ════ Chat Screen (shown after login) ════ -->
+    <LinearLayout android:id="@+id/layoutChat"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- Messages RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvChat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingStart="12dp" android:paddingEnd="12dp"
+            android:paddingTop="8dp" android:paddingBottom="8dp"
+            android:clipToPadding="false"
+            android:scrollbars="none"/>
+
+    </LinearLayout>
+
+    <!-- ════ Input Bar (always visible after login) ════ -->
+    <LinearLayout android:id="@+id/layoutInput"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:paddingStart="14dp" android:paddingEnd="14dp"
+        android:paddingTop="10dp" android:paddingBottom="14dp"
+        android:background="@drawable/nav_bg"
+        android:visibility="gone">
+
+        <!-- Emoji quick buttons -->
+        <TextView android:id="@+id/btnEmoji"
+            android:layout_width="36dp" android:layout_height="36dp"
+            android:text="💜" android:textSize="20sp" android:gravity="center"
+            android:background="@drawable/chip_idle" android:layout_marginEnd="8dp"
+            android:clickable="true" android:focusable="true"/>
+
+        <EditText android:id="@+id/etChatMsg"
+            android:layout_width="0dp" android:layout_height="46dp"
+            android:layout_weight="1"
+            android:hint="@string/chat_hint" android:hintTextColor="#A78BFA"
+            android:textColor="#1E0A2E" android:textSize="14sp"
+            android:background="@drawable/chat_input_bg"
+            android:paddingStart="16dp" android:paddingEnd="16dp"
+            android:inputType="textMultiLine" android:maxLines="4"
+            android:imeOptions="actionSend"/>
+
+        <TextView android:id="@+id/btnSendChat"
+            android:layout_width="46dp" android:layout_height="46dp"
+            android:text="➤" android:textColor="#FFFFFF" android:textSize="18sp"
+            android:gravity="center" android:background="@drawable/btn_send_circle"
+            android:layout_marginStart="8dp"
+            android:clickable="true" android:focusable="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

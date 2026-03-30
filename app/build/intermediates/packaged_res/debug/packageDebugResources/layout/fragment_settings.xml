@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="24dp" android:paddingBottom="24dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="24dp" android:layout_marginBottom="20dp"
+            android:text="⚙️ الإعدادات" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:textStyle="bold"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="24dp" android:layout_marginBottom="12dp"
+            android:text="🔒 كلمة السر" android:textColor="#D8B4FE"
+            android:textSize="14sp" android:textStyle="bold"/>
+
+        <!-- إضافة / تعديل كلمة السر -->
+        <LinearLayout android:id="@+id/cardSetPin"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/card_white"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:padding="18dp" android:clickable="true" android:focusable="true">
+
+            <TextView android:layout_width="52dp" android:layout_height="52dp"
+                android:text="🔑" android:textSize="26sp" android:gravity="center"
+                android:background="@drawable/badge_purple"/>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:layout_marginStart="14dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="إضافة / تعديل كلمة السر"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="اضبط رقم PIN لحماية تطبيقك"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="›" android:textColor="#A78BFA" android:textSize="22sp"/>
+        </LinearLayout>
+
+        <!-- حذف كلمة السر -->
+        <LinearLayout android:id="@+id/cardHazamaPin"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/card_white"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:padding="18dp" android:clickable="true" android:focusable="true">
+
+            <TextView android:layout_width="52dp" android:layout_height="52dp"
+                android:text="🗑" android:textSize="26sp" android:gravity="center"
+                android:background="@drawable/badge_purple"/>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:layout_marginStart="14dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="حذف كلمة السر"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="إزالة القفل من التطبيق نهائياً"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="›" android:textColor="#EC4899" android:textSize="22sp"/>
+        </LinearLayout>
+
+        <!-- اختبار القفل -->
+        <LinearLayout android:id="@+id/cardVerifyPin"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/card_white"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:padding="18dp" android:clickable="true" android:focusable="true">
+
+            <TextView android:layout_width="52dp" android:layout_height="52dp"
+                android:text="🔓" android:textSize="26sp" android:gravity="center"
+                android:background="@drawable/badge_purple"/>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:layout_marginStart="14dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="اختبار كلمة السر"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="جرّب إدخال رقمك للتأكد أنه يعمل"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="›" android:textColor="#A78BFA" android:textSize="22sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.love.essahazama.app-mergeDebugResources-45:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\acc\\.gradle\\caches\\9.3.1\\transforms\\65e4611eb82728eb0e901d3efc12a53f\\workspace\\transformed\\material-1.12.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}
